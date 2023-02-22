@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import weatherapp from "../../Assets/Projects/weatherapp-sc.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import teambuilder from "../../Assets/Projects/teambuilder-sc.png";
+import ecommerce from "../../Assets/Projects/e-commerce-sc2.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import miniBlog from "../../Assets/Projects/mvc-sc1.png";
 
 function Projects() {
   return (
@@ -15,53 +15,53 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My working  <strong className="purple">Porfolio </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Samples of some projects I have created and collaborated on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={ecommerce}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="API Routing"
+              description="Showcasing the backend routing of a simple API of a generic retail website. This program uses JavaScript, MySQL, Express, and Node.js to simulate a online store or marketplace. Categories of items, products, inventory ID's and all within this compact and lightweight application."
+              ghLink="https://github.com/wevexOP/E-Commerce"
+              demoLink="https://www.youtube.com/watch?v=A60SmP33ZgY"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={miniBlog}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Mini Blog!"
+              description="A simple blog that users from all over the world can access and post to the main page as they please. This project was designed using the 'Model View Controler'(MVC) via handlebars. With multiple view port pages as well a s login functionaility and a simple user interface this app is seemless in its use and purpose."
+              ghLink="https://github.com/wevexOP/MVC-Tech-Blog"
+              demoLink="https://mini-blog-dominic.herokuapp.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={teambuilder}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Team Profile Generator"
+              description="The purpose and functionality of this app is to create an easy and useful tool for categorizing all of the employees and their roles in the workspace. This tool not only allows you to build teams but also stay connected with them by getting all of the contact information bundled with their identification card of the web page."
+              ghLink="https://github.com/wevexOP/Team-Profile-Generator"
+              demoLink="https://www.youtube.com/watch?v=k_HjWnLx2H0"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={weatherapp}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Weather App"
+              description="This browser application is made easy and free to all users! With live data updates and current tracking of specific global areas, this weather app is perfect for on the go use! This app was fun to make because it uses Openweather Ai and there free API to feed live data of weather dependiong your location."
+              ghLink="https://github.com/wevexOP/Weather-App"
+              demoLink="https://wevexop.github.io/Weather-App/"
             />
           </Col>
 
