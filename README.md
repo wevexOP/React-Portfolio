@@ -38,5 +38,5 @@ You will find all the components used and you can edit your information accordin
 Personalized by: [wevexOP](https://github.com/wevexOP)
 
 
-Referenced: [Soumyajit4419](https://github.com/soumyajit4419/Portfolio)
+Referenced: [Soumyajit4419](https://github.com/soumyajit4419)
 
