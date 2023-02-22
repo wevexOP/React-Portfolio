@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import weatherapp from "../../Assets/Projects/weatherapp-sc.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import notetaker from "../../Assets/Projects/notetaker-sc.png";
 import teambuilder from "../../Assets/Projects/teambuilder-sc.png";
 import ecommerce from "../../Assets/Projects/e-commerce-sc2.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import cinder from "../../Assets/Projects/cinder-sc.png";
 import miniBlog from "../../Assets/Projects/mvc-sc1.png";
 
 function Projects() {
@@ -67,24 +67,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={cinder}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Cinder.io"
+              description="Cinder is a small applications and attempt for my friends and I to make a dating website for developers. This appliactions uses handlebars as view ports and was the first time working websockets to create chat rooms."
+              ghLink="https://github.com/wevexOP/Cinder"
+              demoLink="https://dev-loveio.herokuapp.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={notetaker}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Note Taking App"
+              description="This simple note taking application allows you to save notes with a title and plain text. Powered by ExpressJS, the Note Taker app makes creating, viewing, and deleting notes a cinch!"
+              ghLink="https://github.com/wevexOP/Note-Taker"
+              demoLink="https://note-taker-wevexop.herokuapp.com/"   
             />
           </Col>
         </Row>
