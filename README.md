@@ -15,10 +15,13 @@ This project was built using these technologies.
 
 ## Screenshots 
 
-( coming soon...)
+![Front Page of Website](./Images/portfoliosc-readme.png)
 
+![My Skillset](./Images/portfoliosc1-readme.png)
 
-### Sources
+![Projects Worked On](./Images/portfoliosc2-readme.png)
+
+### Author and Referances
 
 
 Personalized by: [wevexOP](https://github.com/wevexOP)
