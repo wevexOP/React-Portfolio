@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import weatherapp from "../../Assets/Projects/weatherapp-sc.png";
 import notetaker from "../../Assets/Projects/notetaker-sc.png";
-import teambuilder from "../../Assets/Projects/teambuilder-sc.png";
+import CHEAT_LEAF from "../../Assets/Projects/CHEAT_LEAF.png";
 import ecommerce from "../../Assets/Projects/e-commerce-sc2.png";
 import cinder from "../../Assets/Projects/cinder-sc.png";
 import miniBlog from "../../Assets/Projects/mvc-sc1.png";
@@ -45,12 +45,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={teambuilder}
+              imgPath={CHEAT_LEAF}
               isBlog={false}
-              title="Team Profile Generator"
-              description="The purpose and functionality of this app is to create an easy and useful tool for categorizing all of the employees and their roles in the workspace. This tool not only allows you to build teams but also stay connected with them by getting all of the contact information bundled with their identification card of the web page."
-              ghLink="https://github.com/wevexOP/Team-Profile-Generator"
-              demoLink="https://www.youtube.com/watch?v=k_HjWnLx2H0"              
+              title="Cheat Leaf"
+              description="Cheat Leaf is a cool website that I worked with a team of developers to create. Utilizing React, graphQL, apollo client, and various other technologies this appliactions was desgined to be a hub for data and information that users can post to. Making and account and try it out!"
+              ghLink="https://github.com/areas-boot-camp-projects/cheat-leaf"
+              demoLink="https://cheat-leaf.herokuapp.com/"              
             />
           </Col>
 
